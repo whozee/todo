@@ -1,1 +1,32 @@
 
+/*Please don't change the name of the application*/
+"app.name" = "gwrgw";
+
+/*form_label*/
+"app.login.text" = "gwgwg";
+"app.login.message.success" = "";
+"app.login.message.error" = "gwgr";
+"app.login.password.forget" = "";
+"app.login.password.reset" = "";
+"app.register.text" = "";
+"app.register.message.success" = "";
+"app.register.message.error" = "";
+"app.menu.terms" = "";
+"app.users.active" = "";
+
+/*form_label*/
+"app.login.pass" = "";
+
+/*Please don't change the name of the application*/
+"TODO List" = "TODO List";
+"Enter your credentials below to login" = "Entrez vos identifiants ci-dessous pour vous connecter";
+"Login successful !\nWelcome back %s !" = "Connexion réussie !\nBon retour %s !";
+"Make sure you've entered the correct username and password" = "Assurez-vous que vous avez entré le nom d'utilisateur correct et le mot de passe";
+"I forgot my password" = "J'ai oublié mon mot de passe";
+"Enter your address in the field below. A new password will be sent to your inbox." = "Entrez votre adresse dans le champ ci-dessous. Un nouveau mot de passe sera envoyé à votre boîte de réception.";
+"Sign up for free! No credit card required!" = "Inscrivez-vous gratuitement ! Aucune carte de crédit !";
+"Thank you for signing up !\nPlease check your email address to activate your account." = "Je vous remercie pour vous inscrire !\nVeuillez vérifier votre adresse e-mail pour activer votre compte.";
+"We were unable to sign you up.\nPlease correct the marked fields." = "Nous n'avons pas pu vous inscrire.\nVeuillez corriger les champs marqués.";
+"Terms and conditions" = "Termes et conditions";
+"Just one user online" = "Un seul utilisateur en ligne";
+"Password" = "Mot de passe";
