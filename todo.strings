@@ -1,21 +1,1513 @@
 
-/*Please don't change the name of the application*/
-"app.name" = "TODO List";
+/*yyyy-mm-dd*/
+"DATEFORMAT" = "yyyy-mm-dd";
 
-/*Fuzzy*/
-"app.login.text" = "Enter your credentials below to login";
-"app.login.message.success" = "Login successful !\nWelcome back %s !";
-"app.login.message.error" = "Make sure you've entered the correct username and password";
-"app.login.password.forget" = "I forgot my password";
-"app.login.password.reset" = "Enter your address in the field below. A new password will be sent to your inbox.";
-"app.register.text" = "Sign up for free! No credit card required!";
-"app.register.message.success" = "Thank you for signing up!\nPlease check your email address to activate your account.";
-"app.register.message.error" = "We were unable to sign you up.\nPlease correct the marked fields.";
-"app.menu.terms" = "Terms and conditions";
+/*Language unavailable*/
+"JS_FAILURELANGUAGE" = "언어를 사용할 수 없음";
 
-/*form_label*/
-"app.login.text" = "Username";
-"app.users.active" = "Just one user online";
+/*Warning*/
+"JS_TITLEWARNING" = "경고";
 
-/*form_label*/
-"app.login.pass" = "Password";
+/*Congratulations*/
+"JS_TITLECONGRATULATION" = "축하드려요";
+
+/*Close*/
+"JS_CLOSE" = "닫기";
+
+/*Confirm*/
+"JS_TITLECONFIRMATION" = "확인";
+
+/*OK*/
+"JS_OK" = "확인";
+
+/*Confirm*/
+"JS_ENABLE" = "확인";
+
+/*Cancel*/
+"JS_CANCEL" = "취소";
+
+/*Distributions*/
+"MENU_DIFFUSION" = "배포";
+
+/*Codes*/
+"MENU_CODES" = "코드";
+
+/*Help*/
+"MENU_FAQ" = "도움말";
+
+/*Client*/
+"MENU_CLIENTS" = "클라이언트";
+
+/*Administration*/
+"MENU_GESTION" = "관리";
+
+/*Change password*/
+"MSG_CHANGEPASSWORD" = "비밀번호 변경";
+
+/*Logout*/
+"MSG_DECONNECTION" = "로그아웃";
+
+/*Refer to Help*/
+"MSG_READFAQ" = "도움말 참고";
+
+/*WELCOME*/
+"TITLE_AUTHENTICATION" = "환영합니다";
+
+/*Email*/
+"LOGIN_ID" = "이메일";
+
+/*Password*/
+"LOGIN_PASSWORD" = "비밀번호";
+
+/*Login*/
+"LOGIN_CONNECT" = "로그인";
+
+/*Brand*/
+"SELECT_BRAND" = "브랜드";
+
+/*Client*/
+"SELECT_CLIENT" = "클라이언트";
+
+/*Authentication faillure*/
+"JS_FAILUREAUTHENTICATION" = "인증 실패";
+
+/*Fatal error has occured*/
+"JS_FAILUREGENERAL" = "심각한 오류가 발생했습니다.";
+
+/*Error while saving*/
+"JS_FAILURESAVING" = "저장하는 동안 오류가 발생했습니다.";
+
+/*Saved*/
+"JS_SUCCESSSAVING" = "저장됨";
+
+/*Error while deleting*/
+"JS_FAILUREDELETING" = "삭제하는 동안 오류가 발생했습니다.";
+
+/*Deleted*/
+"JS_SUCCESSDELETING" = "삭제됨";
+
+/*Error while saving your order*/
+"JS_FAILURESAVINGDIFFUSION" = "주문을 저장하는 동안 오류가 발생했습니다.";
+
+/*Your order has been saved successfully*/
+"JS_SUCCESSSAVINGDIFFUSION" = "주문이 성공적으로 저장되었습니다.";
+
+/*Your order has been successfully cancelled*/
+"JS_CANCELDIFFUSION" = "주문이 성공적으로 취소되었습니다.";
+
+/*Error while saving your order*/
+"JS_FAILURESAVINGORDERCODE" = "주문을 저장하는 동안 오류가 발생했습니다.";
+
+/*Your codes order has been saved successfully*/
+"JS_SUCCESSSAVINGORDERCODE" = "코드 주문이 성공적으로 저장되었습니다.";
+
+/*Your codes order has been successfully cancelled*/
+"JS_CANCELORDERCODE" = "코드 주문이 성공적으로 취소되었습니다.";
+
+/*Delete this user?*/
+"JS_CONFIRMDELETEUSER" = "이 사용자를 삭제할까요?";
+
+/*Delete this campaign?*/
+"JS_CONFIRMDELECAMPAIGN" = "이 캠페인을 삭제할까요?";
+
+/*Modify the status of this order ?*/
+"JS_CONFIRMDIFFUSIONSTATUS" = "이 주문 상태를 수정할까요?";
+
+/*Modify the status of this order ?*/
+"JS_CONFIRMORDERCODESTATUS" = "이 주문 상태를 수정할까요?";
+
+/*Welcome to your B2B portal*/
+"ACCUEIL_WELCOME" = "B2B 포털에 오신 것을 환영합니다.";
+
+/*Change password*/
+"PASSWORD_TITLE" = "비밀번호 변경";
+
+/*New password*/
+"PASSWORD_PASSWORD1" = "새로운 비밀번호";
+
+/*Confirm new password*/
+"PASSWORD_PASSWORD2" = "새로운 비밀번호 확인";
+
+/*Update password*/
+"PASSWORD_SAVE" = "비밀번호 업데이트";
+
+/*My Codes*/
+"CODES_TITLE" = "내 코드";
+
+/*Previous Codes*/
+"CODES_HISTORY_TITLE" = "이전 코드";
+
+/*Request new codes*/
+"CODES_NEW_REQUEST" = "새 코드 요청";
+
+/*Date*/
+"CODES_TAB_DATE" = "날짜";
+
+/*Reference*/
+"CODES_TAB_REFERENCE" = "참조";
+
+/*Quantity*/
+"CODES_TAB_NBRECODES" = "수량";
+
+/*Total value*/
+"CODES_TAB_AMOUNT" = "총액";
+
+/*Order*/
+"CODES_TAB_FILEREQUEST" = "주문";
+
+/*Codes*/
+"CODES_TAB_FILECODE" = "코드";
+
+/*Status*/
+"CODES_TAB_STATUS" = "상태";
+
+/*Download*/
+"CODES_DL_FILEREQUEST" = "다운로드";
+
+/*Download*/
+"CODES_DL_FILECODE" = "다운로드";
+
+/*Wallet*/
+"CODES_SUMMARY" = "전자지갑";
+
+/*Code orders*/
+"CODES_SUMMARY_REQUESTS" = "코드 주문";
+
+/*Codes*/
+"CODES_SUMMARY_CODES" = "코드";
+
+/*Total value*/
+"CODES_SUMMARY_AMOUNT" = "총액";
+
+/*Credit*/
+"CODES_SUMMARY_CREDTIS" = "크레딧";
+
+/*To add credits, please contact a sales specialist*/
+"MSG_GET_CREDITS" = "크레딧을 추가하려면 세일즈 스페셜리스트에게 문의하세요.";
+
+/*Codes order file*/
+"CODES_POPUP_REQUESTFILE" = "코드 주문 파일";
+
+/*Select a file*/
+"CODES_POPUP_SELECTFILE" = "파일 선택";
+
+/*CSV file with header line. Check Help:␣*/
+"CODES_POPUP_FILEFORMAT" = "헤더 라인이 있는 CSV 파일. 도움말 확인:␣";
+
+/*Cancel*/
+"CODES_POPUP_CANCELREQUEST" = "취소";
+
+/*Submit*/
+"CODES_POPUP_SUBMITREQUEST" = "제출";
+
+/*Loading order*/
+"CODES_POPUP_LOGFILE" = "주문 로드 중";
+
+/*Confirm*/
+"CODES_POPUP_CONFIRMREQUEST" = "확인";
+
+/*File missing*/
+"LOG_MISSING_FILE" = "파일 없음";
+
+/*Processing, please wait...*/
+"JS_WAITFORANALYSIS" = "처리 중입니다. 잠시 기다려 주세요.";
+
+/*Help - Support and Answers*/
+"FAQ_TITLE" = "도움말 - 지원/답변";
+
+/*My Distributions*/
+"DIFFUSIONS_TITLE" = "내 배포";
+
+/*Previous Distributions*/
+"DIFFUSIONS_HISTORY_TITLE" = "이전 배포";
+
+/*New order*/
+"DIFFUSIONS_NEW_REQUEST" = "새 주문";
+
+/*Send date*/
+"DIFFUSIONS_TAB_DATE" = "보낸 날짜";
+
+/*Campaign*/
+"DIFFUSIONS_TAB_CAMPAIGN" = "캠페인";
+
+/*Reference*/
+"DIFFUSIONS_TAB_REFERENCE" = "참조";
+
+/*Quantity*/
+"DIFFUSIONS_TAB_NBRECARDS" = "수량";
+
+/*Total value*/
+"DIFFUSIONS_TAB_AMOUNT" = "총액";
+
+/*Status*/
+"DIFFUSIONS_TAB_STATUS" = "상태";
+
+/*Wallet*/
+"DIFFUSIONS_SUMMARY" = "전자지갑";
+
+/*Distributions*/
+"DIFFUSIONS_SUMMARY_REQUESTS" = "배포";
+
+/*Total␣*/
+"DIFFUSIONS_SUMMARY_CARDS" = "합계␣";
+
+/*Total value*/
+"DIFFUSIONS_SUMMARY_AMOUNT" = "총액";
+
+/*Credits*/
+"DIFFUSIONS_SUMMARY_CREDTIS" = "크레딧";
+
+/*Campaign*/
+"DIFFUSIONS_POPUP_CAMPAIGN" = "캠페인";
+
+/*Select a campaign*/
+"DIFFUSIONS_POPUP_SELECTCAMPAIGN" = "캠페인 선택";
+
+/*Design*/
+"DIFFUSIONS_POPUP_VISUAL" = "디자인";
+
+/*Select a design*/
+"DIFFUSIONS_POPUP_SELECTVISUAL" = "디자인 선택";
+
+/*Recipients file*/
+"DIFFUSIONS_POPUP_REQUESTFILE" = "수신자 파일";
+
+/*Select a file*/
+"DIFFUSIONS_POPUP_SELECTFILE" = "파일 선택";
+
+/*CSV file with header line. Check Help:␣*/
+"DIFFUSIONS_POPUP_FILEFORMAT" = "헤더 라인이 있는 CSV 파일. 도움말 확인:␣";
+
+/*Send date*/
+"DIFFUSIONS_POPUP_DATETOBESENT" = "보낸 날짜";
+
+/*Date: YYYY-MM-DD*/
+"DIFFUSIONS_POPUP_DATEFORMAT" = "날짜: YYYY-MM-DD";
+
+/*Cancel*/
+"DIFFUSIONS_POPUP_CANCELREQUEST" = "취소";
+
+/*Submit*/
+"DIFFUSIONS_POPUP_SUBMITREQUEST" = "제출";
+
+/*Loading file*/
+"DIFFUSIONS_POPUP_LOGFILE" = "파일 로드 중";
+
+/*Confirm*/
+"DIFFUSIONS_POPUP_CONFIRMREQUEST" = "확인";
+
+/*Clients*/
+"CLIENTS_TITLE" = "클라이언트";
+
+/*Add a client*/
+"CLIENTS_ADDCLIENT" = "클라이언트 추가";
+
+/*Modify*/
+"CLIENTS_MODIFYCLIENT" = "수정";
+
+/*Activity*/
+"CLIENTS_TAB_ACTIVITY_TITLE" = "활동";
+
+/*Access*/
+"CLIENTS_TAB_ACCESS_TITLE" = "액세스";
+
+/*Credits*/
+"CLIENTS_TAB_CREDITS_TITLE" = "크레딧";
+
+/*Campaigns*/
+"CLIENTS_TAB_CAMPAIGNS_TITLE" = "캠페인";
+
+/*Users*/
+"CLIENTS_TAB_USERS_TITLE" = "사용자";
+
+/*Logo*/
+"CLIENTS_TAB_LOGO_TITLE" = "로고";
+
+/*Summary*/
+"CLIENTS_ACTIVITY_SUMMARY_TITLE" = "요약";
+
+/*Distributions*/
+"CLIENTS_ACTIVITY_SUMMARY_DIFFUSIONS" = "배포";
+
+/*Cards*/
+"CLIENTS_ACTIVITY_SUMMARY_DIFFUSIONS_CARDS" = "카드";
+
+/*Total value*/
+"CLIENTS_ACTIVITY_SUMMARY_DIFFUSIONS_AMOUNT" = "총액";
+
+/*Sent*/
+"CLIENTS_ACTIVITY_SUMMARY_DIFFUSIONS_SENT" = "보냄";
+
+/*Cancelled*/
+"CLIENTS_ACTIVITY_SUMMARY_DIFFUSIONS_CANCELED" = "취소됨";
+
+/*Pending*/
+"CLIENTS_ACTIVITY_SUMMARY_DIFFUSIONS_PENDING" = "보류 중";
+
+/*Codes orders*/
+"CLIENTS_ACTIVITY_SUMMARY_CODES" = "코드 주문";
+
+/*Cards*/
+"CLIENTS_ACTIVITY_SUMMARY_CODES_CARDS" = "카드";
+
+/*Total value*/
+"CLIENTS_ACTIVITY_SUMMARY_CODES_AMOUNT" = "총액";
+
+/*Available*/
+"CLIENTS_ACTIVITY_SUMMARY_CODES_AVAILABLE" = "사용 가능";
+
+/*Cancelled*/
+"CLIENTS_ACTIVITY_SUMMARY_CODES_CANCELED" = "취소됨";
+
+/*Pending*/
+"CLIENTS_ACTIVITY_SUMMARY_CODES_PENDING" = "보류 중";
+
+/*Code order*/
+"CLIENTS_TAB_ACCESS_CODES" = "코드 주문";
+
+/*Distributions*/
+"CLIENTS_TAB_ACCESS_DIFFUSIONS" = "배포";
+
+/*Credit active*/
+"CLIENTS_CREDITS_ACTIVATE" = "크레딧 활성화";
+
+/*Credits activated*/
+"CLIENTS_CREDITS_ACTIVATED" = "크레딧 활성화됨";
+
+/*Credits not activated*/
+"CLIENTS_CREDITS_DEACTIVATED" = "크레딧이 활성화되지 않음";
+
+/*Update*/
+"CLIENTS_CREDITS_SAVE" = "업데이트";
+
+/*Date*/
+"CLIENTS_CREDITS_TAB_DATE" = "날짜";
+
+/*User*/
+"CLIENTS_CREDITS_TAB_USER" = "사용자";
+
+/*Start value*/
+"CLIENTS_CREDITS_TAB_VALSTART" = "시작 값";
+
+/*End value*/
+"CLIENTS_CREDITS_TAB_VALEND" = "종료 값";
+
+/*Delta*/
+"CLIENTS_CREDITS_TAB_DELTA" = "델타";
+
+/*Actions*/
+"CLIENTS_CREDITS_TAB_ACTIONS" = "활동";
+
+/*History*/
+"CLIENTS_CREDITS_HISTORY" = "기록";
+
+/*Add campaign*/
+"CLIENTS_CAMPAIGNS_ADD" = "캠페인 추가";
+
+/*Campaign*/
+"CLIENTS_CAMPAIGNS_TAB_CAMPAIGN" = "캠페인";
+
+/*Usage*/
+"CLIENTS_CAMPAIGNS_TAB_NBREDIFF" = "사용 현황";
+
+/*Actions*/
+"CLIENTS_CAMPAIGNS_TAB_ACTIONS" = "활동";
+
+/*This campaign can not be deleted*/
+"CLIENTS_CAMPAIGNS_CANT_DELETE" = "이 캠페인을 삭제할 수 없습니다.";
+
+/*Add user*/
+"CLIENTS_USERS_ADD" = "사용자 추가";
+
+/*Last name*/
+"CLIENTS_USERS_TAB_LASTNAME" = "성";
+
+/*First name*/
+"CLIENTS_USERS_TAB_FIRSTNAME" = "이름";
+
+/*Email*/
+"CLIENTS_USERS_TAB_EMAIL" = "이메일";
+
+/*Profile*/
+"CLIENTS_USERS_TAB_PROFIL" = "프로필";
+
+/*Actions*/
+"CLIENTS_USERS_TAB_ACTIONS" = "활동";
+
+/*Current logo*/
+"CLIENTS_LOGO_CURRENT" = "현재 로고";
+
+/*Choose a logo*/
+"CLIENTS_LOGO_CHOOSEFILE" = "로고 선택";
+
+/*Upload*/
+"CLIENTS_LOGO_SEND" = "업로드";
+
+/*The logo will be printed 120x30 with a white border. An image with a different size will be automatically resized.*/
+"CLIENTS_LOGO_SIZE" = "로고는 흰색 테두리에 120x30 크기로 인쇄됩니다. 크기가 다른 이미지는 자동으로 조정됩니다.";
+
+/*Requirements*/
+"CLIENTS_LOGO_RECOMMENDATION" = "요건";
+
+/*High resolution images will extend the page loading time*/
+"CLIENTS_LOGO_RECOMMENDATION_1" = "고해상도 이미지가 있으면 페이지 로드 시간이 길어집니다.";
+
+/*Use a .png image with a transparent background*/
+"CLIENTS_LOGO_RECOMMENDATION_2" = "배경이 투명한 .png 이미지를 사용하세요.";
+
+/*Use a logo with only white or light background*/
+"CLIENTS_LOGO_RECOMMENDATION_3" = "로고의 배경은 흰색 또는 밝은색이어야 합니다.";
+
+/*Email subject*/
+"DIFFUSIONS_POPUP_SUBJECT" = "이메일 제목";
+
+/*Subject*/
+"DIFFUSIONS_POPUP_SUBJECTHELP" = "제목";
+
+/*Email sender*/
+"DIFFUSIONS_POPUP_EMAIL" = "이메일을 보낸 사람";
+
+/*Address*/
+"DIFFUSIONS_POPUP_EMAILHELP" = "주소";
+
+/*Custom message*/
+"DIFFUSIONS_POPUP_MESSAGE" = "사용자 지정 메시지";
+
+/*Message inserted in email*/
+"DIFFUSIONS_POPUP_MESSAGEHELP" = "이메일에 삽입된 메시지";
+
+/*Card validity (months)*/
+"DIFFUSIONS_POPUP_VALIDITY" = "카드 유효기간(월)";
+
+/*Select months*/
+"DIFFUSIONS_POPUP_SELECTVALIDITY" = "월 선택";
+
+/*Missing file*/
+"LOG_DIFFUSION_MISSINGFILE" = "파일 없음";
+
+/*The file extension must be .csv*/
+"LOG_DIFFUSION_WRONGFORMAT" = "파일 확장자는 .csv여야 합니다.";
+
+/*Processing file*/
+"LOG_DIFFUSION_PROCESSFILE" = "파일 처리 중";
+
+/*Distribution value exceeds credit limit*/
+"LOG_DIFFUSION_NOTENOUGHCREDIT" = "배포 값이 크레딧 한도를 초과합니다.";
+
+/*Invalid email address*/
+"LOG_DIFFUSION_EMAILINVALID" = "잘못된 이메일 주소";
+
+/*Invalid validity*/
+"LOG_DIFFUSION_VALIDITYINVALID" = "잘못된 유효기간";
+
+/*File format: OK*/
+"LOG_DIFFUSION_FORMATOK" = "파일 형식: OK";
+
+/*Filezsize*/
+"LOG_DIFFUSION_FILESIZE" = "파일 크기";
+
+/*Distribution file accepted*/
+"LOG_DIFFUSION_FILEACCEPTED" = "배포 파일 수락됨";
+
+/*Cards*/
+"LOG_DIFFUSION_CARDS" = "카드";
+
+/*Total value*/
+"LOG_DIFFUSION_AMOUNT" = "총액";
+
+/*Distribution reference*/
+"LOG_DIFFUSION_REFERENCE" = "배포 참조";
+
+/*Send date*/
+"LOG_DIFFUSION_DATETOBESENT" = "보낸 날짜";
+
+/*No card found*/
+"LOG_DIFFUSION_NOCARD" = "카드 없음";
+
+/*Errors in file*/
+"LOG_DIFFUSION_ERRORSINFILE" = "파일에 오류 있음";
+
+/*Resend access information by email*/
+"CLIENTS_USERS_SENDINFORMATIONS" = "이메일로 액세스 정보 다시 보내기";
+
+/*Modify user*/
+"CLIENTS_USERS_EDIT" = "사용자 수정";
+
+/*Delete user*/
+"CLIENTS_USERS_DELETE" = "사용자 삭제";
+
+/*Confirm to resend access information by email*/
+"JS_CONFIRMSENDINFORMATIONS" = "이메일로 액세스 정보 다시 보내기 확인";
+
+/*Email sent*/
+"JS_SUCCESSSENDINFORMATIONS" = "이메일 전송 완료";
+
+/*Delete client*/
+"CLIENTS_DELETECLIENT" = "클라이언트 삭제";
+
+/*Confirm client deletion. All related data will be permanently deleted*/
+"JS_CONFIRMDELETECLIENT" = "클라이언트 삭제를 확인합니다. 모든 관련 데이터가 영구적으로 삭제됩니다.";
+
+/*Expired link*/
+"NEWPASS_ERROR_EXPIRED" = "만료된 링크";
+
+/*Invalid link*/
+"NEWPASS_ERROR_INVALID" = "잘못된 링크";
+
+/*Link is missing or incomplete*/
+"NEWPASS_ERROR_MISSING" = "링크가 없거나 완전하지 않습니다.";
+
+/*Reset password*/
+"NEWPASS_TITLE" = "비밀번호 재설정";
+
+/*Enter a new password*/
+"NEWPASS_INFORMATION" = "새로운 비밀번호 입력";
+
+/*Password successfully updated. Please login again*/
+"NEWPASS_SUCCESS" = "비밀번호가 성공적으로 업데이트되었습니다. 다시 로그인해주세요.";
+
+/*Password change unsuccessful*/
+"NEWPASS_FAILURE" = "비밀번호 변경 실패";
+
+/*An error occured*/
+"NEWPASS_ERROR" = "오류 발생";
+
+/*FORGOTTEN PASSWORD*/
+"RECOVER_TITLE" = "비밀번호 찾기";
+
+/*Enter your registered email address to reset your password*/
+"RECOVER_INFORMATION" = "비밀번호를 재설정하려면 등록한 이메일 주소를 입력하세요.";
+
+/*Send*/
+"RECOVER_GETLINK" = "보내기";
+
+/*Follow the instructions sent to your email address.*/
+"RECOVER_SUCCESS" = "이메일 주소로 전송된 지침을 따르세요.";
+
+/*Unknown user*/
+"RECOVER_FAILURE" = "알 수 없는 사용자";
+
+/*Forgot password*/
+"LOGIN_PASSWDLOST" = "비밀번호 찾기";
+
+/*Preview*/
+"DIFFUSIONS_POPUP_PREVIEWMAIL" = "미리보기";
+
+/*Send test*/
+"DIFFUSIONS_POPUP_TESTMAIL" = "테스트 보내기";
+
+/*Wrong number of columns*/
+"FILECHECK_ERR_NUMCOLS" = "잘못된 열 개수";
+
+/*Too many errors. Process aborted*/
+"FILECHECK_ERR_MAXERRORS" = "오류가 너무 많습니다. 처리가 중단되었습니다.";
+
+/*Missing first name*/
+"FILECHECK_ERR_MISSINGFIRSTNAME" = "이름 없음";
+
+/*Missing last name*/
+"FILECHECK_ERR_MISSINGLASTNAME" = "성 없음";
+
+/*Email missing*/
+"FILECHECK_ERR_MISSINGEMAIL" = "이메일 없음";
+
+/*Email incorrect*/
+"FILECHECK_ERR_WRONGEMAIL" = "이메일이 올바르지 않음";
+
+/*Value missing*/
+"FILECHECK_ERR_MISSINGAMOUNT" = "금액 없음";
+
+/*Value incorrect*/
+"FILECHECK_ERR_WRONGAMOUNT" = "금액이 올바르지 않음";
+
+/*Card quantity missing*/
+"FILECHECK_ERR_MISSINGNUMCARDS" = "카드 수량 없음";
+
+/*Incorrect card quantity*/
+"FILECHECK_ERR_WRONGNUMCARDS" = "올바르지 않은 카드 수량";
+
+/*Add a new client*/
+"CLIENT_POPUP_ADDTITLE" = "새 클라이언트 추가";
+
+/*Brand*/
+"CLIENT_POPUP_BRAND" = "브랜드";
+
+/*Client name*/
+"CLIENT_POPUP_NAME" = "클라이언트 이름";
+
+/*Cancel*/
+"CLIENT_POPUP_CANCEL" = "취소";
+
+/*Add client*/
+"CLIENT_POPUP_ADDCLIENT" = "클라이언트 추가";
+
+/*Edit client*/
+"CLIENT_POPUP_EDITTITLE" = "클라이언트 편집";
+
+/*Add campaign*/
+"CAMPAIGN_POPUP_ADDTITLE" = "캠페인 추가";
+
+/*Campaign name*/
+"CAMPAIGN_POPUP_NAME" = "캠페인 이름";
+
+/*Cancel*/
+"CAMPAIGN_POPUP_CANCEL" = "취소";
+
+/*Add campaign*/
+"CAMPAIGN_POPUP_ADDCAMPAIGN" = "캠페인 추가";
+
+/*Select brand*/
+"CLIENT_POPUP_SELECTBRAND" = "브랜드 선택";
+
+/*Save*/
+"CLIENT_POPUP_EDITCLIENT" = "저장";
+
+/*Update client*/
+"USER_POPUP_EDITTITLE" = "클라이언트 업데이트";
+
+/*Add user*/
+"USER_POPUP_ADDTITLE" = "사용자 추가";
+
+/*First name*/
+"USER_POPUP_FIRSTNAME" = "이름";
+
+/*Last name*/
+"USER_POPUP_LASTNAME" = "성";
+
+/*Email*/
+"USER_POPUP_EMAIL" = "이메일";
+
+/*Password*/
+"USER_POPUP_PASSWORD" = "비밀번호";
+
+/*Leave blank to not change*/
+"USER_POPUP_PASSWORDHELP" = "변경하지 않으려면 비워 두세요.";
+
+/*Confirm password*/
+"USER_POPUP_PASSWORD2" = "비밀번호 확인";
+
+/*Profile*/
+"USER_POPUP_PROFIL" = "프로필";
+
+/*Cancel*/
+"USER_POPUP_CANCEL" = "취소";
+
+/*Save*/
+"USER_POPUP_EDITUSER" = "저장";
+
+/*Add user*/
+"USER_POPUP_ADDUSER" = "사용자 추가";
+
+/*Help*/
+"HELP_TITLE" = "도움말";
+
+/*Help reference not found*/
+"HELP_ERROR" = "도움말 참조를 찾을 수 없음";
+
+/*No Help available*/
+"JS_NOHELPAVAILABLE" = "사용 가능한 도움말이 없음";
+
+/*Back*/
+"HELP_BACK" = "뒤로";
+
+/*Close*/
+"HELP_CLOSE" = "닫기";
+
+/*Codes in stock*/
+"STOCK_TITLE" = "코드 재고 있음";
+
+/*Notification limit*/
+"CLIENTS_TAB_CREDITS_ALERT" = "알림 제한";
+
+/*Enter zero to deactivate notifications*/
+"CLIENTS_TAB_CREDITS_ALERTHELP" = "알림을 비활성화하려면 0을 입력하세요.";
+
+/*Failure while saving codes*/
+"JS_FAILURESAVINGSTOCKCODES" = "코드 저장 실패";
+
+/*Codes successfully saved*/
+"JS_SUCCESSSAVINGSTOCKCODES" = "코드가 성공적으로 저장되었습니다.";
+
+/*Codes cancelled*/
+"JS_CANCELSTOCKCODES" = "코드가 취소되었습니다.";
+
+/*No code found*/
+"FILECHECK_ERR_MISSINGCODE" = "코드 없음";
+
+/*Distributions activity*/
+"CLIENTS_ACTIVITY_SUMMARY_DIFFUSIONS_TITLE" = "배포 활동";
+
+/*Codes activity*/
+"CLIENTS_ACTIVITY_SUMMARY_CODES_TITLE" = "코드 활동";
+
+/*Cards this period*/
+"CLIENTS_ACTIVITY_SUMMARY_DIFFUSIONS_CARDS_PERIOD" = "이 기간의 카드";
+
+/*Value this period*/
+"CLIENTS_ACTIVITY_SUMMARY_DIFFUSIONS_AMOUNT_PERIOD" = "이 기간의 금액";
+
+/*Codes this period*/
+"CLIENTS_ACTIVITY_SUMMARY_CODES_CARDS_PERIOD" = "이 기간의 코드";
+
+/*Value this period*/
+"CLIENTS_ACTIVITY_SUMMARY_CODES_AMOUNT_PERIOD" = "이 기간의 금액";
+
+/*Client information*/
+"CLIENTS_CREDITS_INFORMATIONS" = "클라이언트 정보";
+
+/*Send credit information*/
+"CLIENTS_CREDITS_SENDINFORMATIONS" = "크레딧 정보 보내기";
+
+/*Confirm to send credits information by email to the client ?*/
+"JS_CONFIRMSENDCREDITINFORMATIONS" = "이메일로 클라이언트에게 크레딧 정보를 보낼까요?";
+
+/*Email sent*/
+"JS_SUCCESSSENDCREDITSINFORMATIONS" = "이메일 전송 완료";
+
+/*New order*/
+"CODES_WRITE_REQUEST" = "새 주문";
+
+/*New order*/
+"CODES_POPUP_WRITETITLE" = "새 주문";
+
+/*Update address*/
+"ADDRESS_POPUP_EDITTITLE" = "주소 업데이트";
+
+/*Add address*/
+"ADDRESS_POPUP_ADDTITLE" = "주소 추가";
+
+/*Cancel*/
+"ADDRESS_POPUP_CANCEL" = "취소";
+
+/*Edit address*/
+"ADDRESS_POPUP_EDITADDRESS" = "주소 편집";
+
+/*Add address*/
+"ADDRESS_POPUP_ADDADDRESS" = "주소 추가";
+
+/*Physical cards*/
+"PHYSICAL_TITLE" = "실물 카드";
+
+/*Previous Cards*/
+"PHYSICAL_HISTORY_TITLE" = "이전 카드";
+
+/*New order*/
+"PHYSICAL_NEW_REQUEST" = "새 주문";
+
+/*Order date*/
+"PHYSICAL_TAB_DATE" = "주문 날짜";
+
+/*Reference*/
+"PHYSICAL_TAB_REFERENCE" = "참조";
+
+/*Quantity*/
+"PHYSICAL_TAB_NBRECODES" = "수량";
+
+/*Value*/
+"PHYSICAL_TAB_AMOUNT" = "금액";
+
+/*Status*/
+"PHYSICAL_TAB_STATUS" = "상태";
+
+/*Wallet*/
+"PHYSICAL_SUMMARY" = "전자지갑";
+
+/*Orders*/
+"PHYSICAL_SUMMARY_REQUESTS" = "주문";
+
+/*Cards*/
+"PHYSICAL_SUMMARY_CODES" = "카드";
+
+/*Value*/
+"PHYSICAL_SUMMARY_AMOUNT" = "금액";
+
+/*Credits*/
+"PHYSICAL_SUMMARY_CREDTIS" = "크레딧";
+
+/*Do you really want to delete this address?*/
+"JS_CONFIRMDELETEADDRESS" = "이 주소를 삭제할까요?";
+
+/*Dashboard*/
+"CLIENTS_GODASHBOARD" = "대시보드";
+
+/*Addresses*/
+"CLIENTS_TAB_ADDRESSES_TITLE" = "주소";
+
+/*Physical cards*/
+"CLIENTS_TAB_ACCESS_PHYSICAL" = "실물 카드";
+
+/*Add address*/
+"CLIENTS_ADDRESSES_ADD" = "주소 추가";
+
+/*Description*/
+"CLIENTS_ADDRESSES_DESCRIPTION" = "설명";
+
+/*Address line 1*/
+"CLIENTS_ADDRESSES_ADDRESS1" = "주소 1";
+
+/*Address line 2*/
+"CLIENTS_ADDRESSES_ADDRESS2" = "주소 2";
+
+/*Address line 3*/
+"CLIENTS_ADDRESSES_ADDRESS3" = "주소 3";
+
+/*Postcode*/
+"CLIENTS_ADDRESSES_POSTALCODE" = "우편번호";
+
+/*City*/
+"CLIENTS_ADDRESSES_CITY" = "도시";
+
+/*Country*/
+"CLIENTS_ADDRESSES_COUNTRY" = "국가";
+
+/*Update address*/
+"CLIENTS_ADDRESSES_EDIT" = "주소 업데이트";
+
+/*Delete address*/
+"CLIENTS_ADDRESSES_DELETE" = "주소 삭제";
+
+/*Design*/
+"PHYSICAL_POPUP_VISUAL" = "디자인";
+
+/*Select a design*/
+"PHYSICAL_POPUP_SELECTVISUAL" = "디자인 선택";
+
+/*Message on card*/
+"PHYSICAL_POPUP_MESSAGE" = "카드 메시지";
+
+/*Message content*/
+"PHYSICAL_POPUP_MESSAGEHELP" = "메시지 내용";
+
+/*Select a delivery address*/
+"PHYSICAL_POPUP_SELECTADDRESS" = "배송 주소 선택";
+
+/*Cancel*/
+"PHYSICAL_POPUP_CANCELREQUEST" = "취소";
+
+/*Submit*/
+"PHYSICAL_POPUP_SUBMITREQUEST" = "제출";
+
+/*Loading order*/
+"PHYSICAL_POPUP_LOGFILE" = "주문 로드 중";
+
+/*Confirm*/
+"PHYSICAL_POPUP_CONFIRMREQUEST" = "확인";
+
+/*Tracking*/
+"PHYSICAL_TAB_TRACKING" = "추적";
+
+/*Open carrier website*/
+"PHYSICAL_TRACKING" = "배송업체 웹사이트 열기";
+
+/*Physical Cards*/
+"MENU_PHYSIC" = "실물 카드";
+
+/*Physical cards activity*/
+"CLIENTS_ACTIVITY_SUMMARY_PHYSICALS_TITLE" = "실물 카드 활동";
+
+/*Orders*/
+"CLIENTS_ACTIVITY_SUMMARY_PHYSICALS" = "주문";
+
+/*Cards*/
+"CLIENTS_ACTIVITY_SUMMARY_PHYSICALS_CARDS" = "카드";
+
+/*Total value*/
+"CLIENTS_ACTIVITY_SUMMARY_PHYSICALS_AMOUNT" = "총액";
+
+/*Sent*/
+"CLIENTS_ACTIVITY_SUMMARY_PHYSICALS_SENT" = "보냄";
+
+/*Received*/
+"CLIENTS_ACTIVITY_SUMMARY_PHYSICALS_RECEIVED" = "받음";
+
+/*Canceled*/
+"CLIENTS_ACTIVITY_SUMMARY_PHYSICALS_CANCELED" = "취소됨";
+
+/*Pending*/
+"CLIENTS_ACTIVITY_SUMMARY_PHYSICALS_PENDING" = "보류 중";
+
+/*Delivered this period*/
+"CLIENTS_ACTIVITY_SUMMARY_PHYSICALS_CARDS_PERIOD" = "이 기간에 배송됨";
+
+/*Value this period*/
+"CLIENTS_ACTIVITY_SUMMARY_PHYSICALS_AMOUNT_PERIOD" = "이 기간의 금액";
+
+/*Delivery address*/
+"PHYSICAL_POPUP_ADDRESS" = "배송 주소";
+
+/*Contact Support to add or modify an address*/
+"PHYSICAL_POPUP_HELPADDRESS" = "주소를 추가하거나 수정하려면 지원센터로 문의해주세요.";
+
+/*Received*/
+"PHYSICAL_TAB_NOTIFYRECEPTION" = "받음";
+
+/*Received*/
+"PHYSICAL_NOTIFY_RECEPTION" = "받음";
+
+/*Confirm distribution*/
+"JS_CONFIRMDIFFUSION" = "배포 확인";
+
+/*Confirm codes*/
+"JS_CONFIRMORDERCODE" = "코드 확인";
+
+/*Error while saving*/
+"JS_FAILURESAVINGPHYSICAL" = "저장하는 동안 오류가 발생했습니다.";
+
+/*Saved*/
+"JS_SUCCESSSAVINGPHYSICAL" = "저장됨";
+
+/*Cancel*/
+"JS_CANCELPHYSICAL" = "취소";
+
+/*Confirm*/
+"JS_CONFIRMPHYSICALSTATUS" = "확인";
+
+/*Confirm*/
+"JS_CONFIRMPHYSICAL" = "확인";
+
+/*File format must be CSV*/
+"LOG_NOCSV_FILE" = "파일 형식은 CSV여야 합니다.";
+
+/*Period*/
+"LABEL_PERIOD" = "기간";
+
+/*Recieved*/
+"CODES_TAB_CONFIRM_RETRIEVE" = "받음";
+
+/*Codes received*/
+"CODES_CONFIRM_RETRIEVE" = "코드 받음";
+
+/*Save*/
+"CLIENTS_CONFIGURATION_SAVE" = "저장";
+
+/*Thanks for your order, %s*/
+"SIMPLEORDER_OKTHANKS" = "%S 님, 주문해주셔서 감사합니다.";
+
+/*We will contact you as soon as possible*/
+"SIMPLEORDER_OKCONTACT" = "이른 시일 안에 연락 드리겠습니다.";
+
+/*Back to home page*/
+"SIMPLEORDER_OKBACK" = "홈페이지로 돌아가기";
+
+/*Confirm order*/
+"JS_CONFIRMSIMPLEORDERSTATUS" = "주문 확인";
+
+/*Do you really want to delete this purchase order ?*/
+"JS_CONFIRMDELETESIMPLEORDER" = "이 구매 주문을 삭제할까요?";
+
+/*Create a purchase order*/
+"SIMPLEORDER_TITLE" = "구매 주문 작성";
+
+/*Use this form if you don't have a login, but would like to send a purchase order to %s. %s will be in contact to finalise the order.*/
+"SIMPLEORDER_INTRODUCTION" = "로그인 정보는 없지만 %s에 구매 주문을 보내고 싶다면 이 양식을 사용하세요. %s이(가) 주문을 완료하기 위해 연락을 드릴 것입니다.";
+
+/*Create a purchase order*/
+"SIMPLEORDER_START" = "구매 주문 작성";
+
+/*Log in to my account*/
+"LOGIN_TITLE" = "내 계정으로 로그인하기";
+
+/*Configuration*/
+"CLIENTS_TAB_CONFIGURATION_TITLE" = "구성";
+
+/*Language for notifications*/
+"CLIENTS_TAB_CONFIGURATION_LANGUAGE" = "알림 언어";
+
+/*Email for notifications*/
+"CLIENTS_TAB_CONFIGURATION_NOTIFICATION" = "알림 이메일";
+
+/*Leave empty for individual notifications*/
+"CLIENTS_TAB_CONFIGURATION_NOTIFICATION_HELP" = "개별 알림을 받으려면 비워 두세요.";
+
+/*My information*/
+"SIMPLEORDER_INFOS_TITLE" = "내 정보";
+
+/*Company*/
+"SIMPLEORDER_INFOS_COMPANY" = "회사";
+
+/*ABN*/
+"SIMPLEORDER_INFOS_IDCOMPANY" = "사업자등록번호";
+
+/*Last name*/
+"SIMPLEORDER_INFOS_LASTNAME" = "성";
+
+/*First name*/
+"SIMPLEORDER_INFOS_FIRSTNAME" = "이름";
+
+/*Email*/
+"SIMPLEORDER_INFOS_EMAIL" = "이메일";
+
+/*Billing address*/
+"SIMPLEORDER_INFOS_BILLINGADDRESS" = "청구 주소";
+
+/*Phone*/
+"SIMPLEORDER_INFOS_PHONE" = "전화";
+
+/*I agree to be contacted by %s regarding this order*/
+"SIMPLEORDER_INFOS_TEXTNOPOLICY" = "이 주문과 관련하여 %s의 연락을 받는 데 동의합니다.";
+
+/*I agree that %s retain my information to process this order, and accept the %u of %s*/
+"SIMPLEORDER_INFOS_TEXTPOLICY" = "%s이(가) 이 주문을 처리하기 위해 내 정보를 보유하는 데 동의하며, %s의 %u을(를) 수락합니다.";
+
+/*Privacy Policy*/
+"SIMPLEORDER_INFOS_POLICY" = "개인정보처리방침";
+
+/*Yes*/
+"YES" = "네";
+
+/*No*/
+"NO" = "아니요";
+
+/*Order details*/
+"SIMPLEORDER_DETAILS_TITLE" = "주문 세부 정보";
+
+/*Digital cards*/
+"SIMPLEORDER_DETAILS_TAB_DIGITAL" = "디지털 카드";
+
+/*Physical cards*/
+"SIMPLEORDER_DETAILS_TAB_PHYSICAL" = "실물 카드";
+
+/*Codes*/
+"SIMPLEORDER_DETAILS_TAB_CODES" = "코드";
+
+/*A digital gift card will be sent by email to your chosen recipients*/
+"SIMPLEORDER_DETAILS_DIGITAL_INFO" = "선택한 수신자에게 이메일로 디지털 기프트카드를 보냅니다.";
+
+/*Card value*/
+"SIMPLEORDER_DETAILS_AMOUNT" = "카드 금액";
+
+/*Upload the list of recipients*/
+"SIMPLEORDER_DETAILS_DIGITAL_HELP1" = "수신자 목록 업로드";
+
+/*One recipient per line: First name | Last name | email address*/
+"SIMPLEORDER_DETAILS_DIGITAL_HELP2" = "한 줄당 수신자 한 명: 이름 | 성 | 이메일 주소";
+
+/*Accepted formats: xls, xlsx, csv, txt*/
+"SIMPLEORDER_DETAILS_DIGITAL_HELP3" = "허용되는 형식: xls, xlsx, csv, txt";
+
+/*Receive cards by post for your employees or members*/
+"SIMPLEORDER_DETAILS_PHYSICAL_INFO" = "직원 또는 멤버의 카드를 우편으로 받습니다.";
+
+/*Number of cards*/
+"SIMPLEORDER_DETAILS_CARDS" = "카드 개수";
+
+/*Delivery address*/
+"SIMPLEORDER_DETAILS_ADDRESSDELIVERY" = "배송 주소";
+
+/*Order digital code files to use in your system/CRM*/
+"SIMPLEORDER_DETAILS_CODES_INFO" = "내 시스템/CRM에서 사용할 디지털 코드 파일 주문";
+
+/*Confirm order*/
+"SIMPLEORDER_VALIDATE" = "주문 확인";
+
+/*Dashboard*/
+"DASHBOARD_TITLE" = "대시보드";
+
+/*Client*/
+"DASHBOARD_CLIENT" = "클라이언트";
+
+/*Codes sent*/
+"DASHBOARD_TOTALCODES" = "코드 보냄";
+
+/*Total value*/
+"DASHBOARD_AMOUNT" = "총액";
+
+/*Distributions*/
+"DASHBOARD_DIFFUSIONS" = "배포";
+
+/*Orders*/
+"DASHBOARD_CODES" = "주문";
+
+/*Physical cards*/
+"DASHBOARD_PHYSICALS" = "실물 카드";
+
+/*Total*/
+"DASHBOARD_TOTAL" = "총계";
+
+/*Value*/
+"POPUP_LINEORDER_AMOUNT" = "금액";
+
+/*Quantity*/
+"POPUP_LINEORDER_CARDS" = "수량";
+
+/*Total*/
+"POPUP_LINEORDER_TOTAL" = "총계";
+
+/*Actions*/
+"POPUP_LINEORDER_ACTIONS" = "작업";
+
+/*Grand total*/
+"POPUP_TOTALORDER1" = "총계";
+
+/*cards for*/
+"POPUP_TOTALORDER2" = "카드";
+
+/*Add a new value*/
+"POPUP_ADDAMOUT" = "새 값 추가";
+
+/*This description is for reference only, it is NOT part of the address*/
+"CLIENTS_ADDRESSES_HELPDESCRIPTION" = "이 설명은 참고용입니다. 주소의 일부가 아닙니다.";
+
+/*Shipping: Use saved addresses*/
+"CLIENTS_TAB_SELECT_ADDRESS" = "배송: 저장된 주소 사용";
+
+/*If blank, any address can be entered*/
+"CLIENTS_TAB_CONFIGURATION_SELECTADDRESS_HELP" = "비어 있다면 아무 주소나 입력할 수 있습니다.";
+
+/*Activation*/
+"PHYSICAL_TAB_ACTIVATION" = "활성화";
+
+/*Message*/
+"PHYSICAL_TAB_MESSAGE" = "메시지";
+
+/*Expiry*/
+"PHYSICAL_TAB_VALIDITY" = "만료";
+
+/*User*/
+"PHYSICAL_TAB_USER" = "사용자";
+
+/*Activate*/
+"PHYSICAL_NOTIFY_ACTIVATION" = "활성화";
+
+/*Hide inactive*/
+"DASHBOARD_HIDE_INACTIVE" = "비활성 항목 숨기기";
+
+/*Discount*/
+"CLIENTS_TAB_CREDITS_DISCOUNT" = "할인";
+
+/*Agreed discount*/
+"CLIENTS_TAB_CREDITS_DISCOUNTHELP" = "동의한 할인";
+
+/*WARNING : As soon as Codes are received, you are responsible for their security, and the loaded value. */
+"WARNING_ACTIVATION" = "경고: 코드를 받은 이후 코드의 보안과 충전된 금액은 이용자의 책임입니다. ";
+
+/*Cards*/
+"CLIENTS_CAMPAIGNS_TAB_TOTALCARDS" = "카드";
+
+/*Quantity*/
+"CLIENTS_CAMPAIGNS_TAB_TOTALAMOUNT" = "수량";
+
+/*For security reasons, please change your password*/
+"INVITE_CHANGE_PASSWORD" = "안전을 위해 비밀번호를 변경해주세요.";
+
+/*Password must have at least 8 characters*/
+"PASSWORD_POLICY_NUMBER" = "비밀번호는 8자 이상이어야 합니다.";
+
+/*Password must contain at least one lowercase letter*/
+"PASSWORD_POLICY_LOWERCASE" = "비밀번호에 소문자를 한 자 이상 포함해야 합니다.";
+
+/*Password must contain at least one uppercase letter*/
+"PASSWORD_POLICY_UPPERCASE" = "비밀번호에 대문자를 한 자 이상 포함해야 합니다.";
+
+/*Password must contain at least one non-alphanumeric character*/
+"PASSWORD_POLICY_OTHER" = "비밀번호에 영숫자 이외의 문자를 한 자 이상 포함해야 합니다.";
+
+/*Password does not meet security requirements*/
+"PASSWORD_POLICY" = "비밀번호가 보안 요구 사항을 충족하지 않습니다.";
+
+/*Passwords do not match*/
+"PASSWORD_NOT_EQUAL" = "비밀번호가 일치하지 않습니다.";
+
+/*Select a saved address*/
+"PHYSICAL_POPUP_SELECTPREDEFINED" = "저장된 주소 선택";
+
+/*Please enter the delivery address*/
+"PHYSICAL_POPUP_GETSHIPPINGADDRESS" = "배송 주소를 입력하세요.";
+
+/*Select billing address*/
+"PHYSICAL_POPUP_BILLINGADDRESS" = "청구 주소 선택";
+
+/*Please enter the billing address*/
+"PHYSICAL_POPUP_GETBILLINGADDRESS" = "청구 주소를 입력하세요.";
+
+/*Billing: Use saved addresses*/
+"CLIENTS_TAB_SELECT_BILLINGADDRESS" = "청구: 저장된 주소 사용";
+
+/*If blank, any address can be entered*/
+"CLIENTS_TAB_CONFIGURATION_SELECTBILLINGADDRESS_HELP" = "비어 있다면 아무 주소나 입력할 수 있습니다.";
+
+/*Client reference*/
+"DIFFUSIONS_POPUP_EXTERNALREFERENCE" = "클라이언트 참조";
+
+/*Your reference for this order␣*/
+"DIFFUSIONS_POPUP_EXTERNALREFERENCEHELP" = "이 주문에 대한 참조␣";
+
+/*%s reference*/
+"DIFFUSIONS_POPUP_BRANDREFERENCE" = "%s 참조";
+
+/*%s quote reference*/
+"DIFFUSIONS_POPUP_BRANDREFERENCEHELP" = "%s 견적서 참조";
+
+/*Client reference*/
+"EXTERNAL_REFERENCE" = "클라이언트 참조";
+
+/*Brand reference*/
+"BRAND_REFERENCE" = "브랜드 참조";
+
+/*Email*/
+"DIFFUSION_EMAIL" = "이메일";
+
+/*Subject*/
+"DIFFUSION_SUBJECT" = "제목";
+
+/*Message*/
+"DIFFUSION_MESSAGE" = "메시지";
+
+/*Validity (month)*/
+"DIFFUSION_VALIDITY" = "유효기간(월)";
+
+/*Orderer*/
+"REQUEST_USER" = "주문자";
+
+/*Type of file*/
+"CODES_POPUP_TYPE" = "파일 형식";
+
+/*Codes*/
+"CODES_TYPE_CODES" = "코드";
+
+/*Links*/
+"CODES_TYPE_LINKS" = "링크";
+
+/*Choose a campaign*/
+"CODES_POPUP_CAMPAIGN" = "캠페인 선택";
+
+/*Type*/
+"ORDER_CODES_TYPE" = "유형";
+
+/*Campaign*/
+"ORDER_CODES_CAMPAIGN" = "캠페인";
+
+/*Received*/
+"CLIENTS_ACTIVITY_SUMMARY_CODES_RECEIVED" = "받음";
+
+/*Activated*/
+"CLIENTS_ACTIVITY_SUMMARY_PHYSICALS_ACTIVATED" = "활성화됨";
+
+/*Code orders: type allowed*/
+"CLIENTS_TAB_CODES_TYPE" = "코드 주문: 허용되는 유형";
+
+/*All*/
+"CODES_TYPE_ALL" = "전체";
+
+/*View summary*/
+"VIEW_SUMMARY" = "요약 보기";
+
+/*Back to top*/
+"BACK_TO_TOP" = "맨 위로 이동";
+
+/*Contact Phone*/
+"PHYSICAL_POPUP_PHONE" = "연락처";
+
+/*Used by the carrier for notifications or delivery requests*/
+"PHYSICAL_POPUP_PHONEHELP" = "배송 알림 또는 배송 요청 목적으로 배송업체에서 사용합니다.";
+
+/*Open orders*/
+"OPENORDERS_TITLE" = "주문 열기";
+
+/*Orders*/
+"MENU_SIMPLEORDER" = "주문";
+
+/*Open orders*/
+"MENU_OPENORDERS" = "주문 열기";
+
+/*Dashboard*/
+"MENU_DASHBOARD" = "대시보드";
+
+/*Client admin*/
+"MENU_ADMINCLIENTS" = "클라이언트 관리자";
+
+/*Email*/
+"PHYSICAL_POPUP_EMAIL" = "이메일";
+
+/*Support*/
+"SUPPORT_TITLE" = "지원";
+
+/*Contact us*/
+"SUPPORT_CONTACTUS" = "문의하기";
+
+/*For any question or problem, please contact us via the form below. You will receive an answer within 24 business hours*/
+"SUPPORT_INTRODUCTION" = "궁금한 점이 있거나 문제가 발생하면 아래 양식을 사용하여 문의해주세요. 업무 시간을 기준으로 24시간 이내에 답변을 드리겠습니다.";
+
+/*Subject*/
+"SUPPORT_SUBJECT" = "제목";
+
+/*Nature of your question or problem*/
+"SUPPORT_SUBJECTHELP" = "질문 또는 문제의 종류";
+
+/*Your message*/
+"SUPPORT_MESSAGE" = "메시지 내용";
+
+/*Details of your question or problem. The more details you provide, the more accurate our answer will be.*/
+"SUPPORT_MESSAGEHELP" = "자세한 질문 또는 문제 내용을 적어 주세요. 자세히 적을수록 더 명확한 답변을 얻으실 수 있습니다.";
+
+/*Send message*/
+"SUPPORT_SEND" = "메시지 보내기";
+
+/*Hotline*/
+"SUPPORT_HOTLINE" = "핫라인";
+
+/*You can also contact us by phone during business hours.
+*/
+"SUPPORT_HOTLINEMESSAGE" = "업무 시간에는 전화로도 문의할 수 있습니다.\n";
+
+/*Call us*/
+"SUPPORT_HOTLINECALL" = "연락처";
+
+/*Email*/
+"SUPPORT_EMAIL" = "이메일";
+
+/*Your email address to receive our answer*/
+"SUPPORT_EMAILHELP" = "답변을 받을 이메일 주소";
+
+/*Error while sending informations*/
+"JS_FAILURESENDINGMESSAGE" = "정보를 보내는 동안 오류가 발생했습니다.";
+
+/*Your message was sent*/
+"SUPPORT_MESSAGESENT" = "메시지가 전송되었습니다.";
+
+/*You will receive an answer within 48 business hours*/
+"SUPPORT_ANSWER" = "업무 시간을 기준으로 48시간 이내에 답변을 드리겠습니다.";
+
+/*Back to the home page*/
+"SUPPORT_BACK" = "홈페이지로 돌아가기";
+
+/*Your discount:␣*/
+"POPUP_TOTALORDERWITHDISCOUNT1" = "할인:␣";
+
+/*Total amount due:␣*/
+"POPUP_TOTALORDERWITHDISCOUNT2" = "총액:␣";
+
+/*Type of file:*/
+"CODES_POPUP_FILETYPE" = "파일 형식:";
+
+/*Choose the type of file*/
+"CODES_POPUP_CHOOSEFILETYPE" = "파일 형식 선택";
+
+/*Codes*/
+"CODES_POPUP_FILETYPECODES" = "코드";
+
+/*Links*/
+"CODES_POPUP_FILETYPELINKS" = "링크";
+
+/*Choose the campaign*/
+"CODES_POPUP_CHOOSECAMPAIGN" = "캠페인 선택";
+
+/*Activity as a reseller*/
+"CLIENTS_ACTIVITY_SUMMARY_RESELLER_TITLE" = "리셀러 활동";
+
+/*Total codes*/
+"CLIENTS_ACTIVITY_SUMMARY_RESELLER_TOTALCODES" = "전체 코드";
+
+/*Total value*/
+"CLIENTS_ACTIVITY_SUMMARY_RESELLER_TOTALAMOUNT" = "총액";
+
+/*Codes this period*/
+"CLIENTS_ACTIVITY_SUMMARY_RESELLER_CODES_PERIOD" = "이 기간의 코드";
+
+/*Value this period*/
+"CLIENTS_ACTIVITY_SUMMARY_RESELLER_AMOUNT_PERIOD" = "이 기간의 금액";
+
+/*Resellers*/
+"DASHBOARD_RESELLERS" = "리셀러";
+
+/*No limit*/
+"DIFFUSIONS_POPUP_NOLIMITVALIDITY" = "제한 없음";
+
+/*Please reload the page*/
+"LOGIN_TIMEOUT" = "페이지를 다시 로드해주세요.";
+
+/*Customer service*/
+"CSC_TITLE" = "고객 서비스";
+
+/*Campaign*/
+"CSC_CHOOSECAMPAIGN" = "캠페인";
+
+/*Choose a campaign*/
+"CSC_CAMPAIGN" = "캠페인 선택";
+
+/*Last Name*/
+"CSC_LASTNAME" = "성";
+
+/*First Name*/
+"CSC_FIRSTNAME" = "이름";
+
+/*Email*/
+"CSC_EMAIL" = "이메일";
+
+/*File number*/
+"CSC_REFERENCE" = "파일 번호";
+
+/*Shop*/
+"CSC_SHOP" = "매장";
+
+/*Amount*/
+"CSC_AMOUNT" = "수량";
+
+/*Message*/
+"CSC_MESSAGE" = "메시지";
+
+/*Visual*/
+"CSC_VISUAL" = "시각적 개체";
+
+/*Language*/
+"CSC_LANGUAGE" = "언어";
+
+/*Preview*/
+"CSC_PREVIEW" = "미리보기";
+
+/*Send*/
+"CSC_SENDEMAIL" = "보내기";
+
+/*Customer service*/
+"MENU_CUSTOMERSERVICE" = "고객 서비스";
+
+/*Parent*/
+"CLIENTS_ACTIVITY_SUMMARY_RESELLER_PARENT" = "상위";
+
+/*Reseller API*/
+"CLIENTS_TAB_ACCESS_RESELLER" = "리셀러 API";
+
+/*Activity as a reseller*/
+"RESELLERS_TITLE" = "리셀러 활동";
+
+/*History of API requests*/
+"RESELLERS_HISTORY_TITLE" = "API 요청 기록";
+
+/*Date*/
+"RESELLERS_TAB_DATE" = "날짜";
+
+/*Reference*/
+"RESELLERS_TAB_REFERENCE" = "참조";
+
+/*Code*/
+"RESELLERS_TAB_CODE" = "코드";
+
+/*Amount*/
+"RESELLERS_TAB_AMOUNT" = "수량";
+
+/*Type*/
+"RESELLERS_TAB_TYPE" = "유형";
+
+/*Activated*/
+"RESELLERS_TAB_ACTIVATED" = "활성화됨";
+
+/*Wallet*/
+"RESELLERS_SUMMARY" = "전자지갑";
+
+/*Requests*/
+"RESELLERS_SUMMARY_REQUESTS" = "요청";
+
+/*Codes*/
+"RESELLERS_SUMMARY_CODES" = "코드";
+
+/*Total amount*/
+"RESELLERS_SUMMARY_AMOUNT" = "총액";
+
+/*Credits*/
+"RESELLERS_SUMMARY_CREDTIS" = "크레딧";
+
+/*Do you want to send this order?*/
+"SIMPLEORDER_CONFIRM" = "이 주문을 보낼까요?";
+
+/*Delete this campaign*/
+"CLIENTS_CAMPAIGNS_DELETE" = "이 캠페인 삭제";
